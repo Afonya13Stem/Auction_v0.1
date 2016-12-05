@@ -150,6 +150,7 @@ $(document).ready ( function(){
 		if($('.selling_item:contains("'+ search +'")')){
 			($('.selling_item:contains("'+ search +'")')).show();
 			($('.selling_item:not(:contains("'+ search +'"))')).hide();
+			$('.main_items').hide();
 		}else{
 			alert('Ничего не найдено');
 		}
