@@ -222,13 +222,23 @@ body{
   float: left;
   }
 
-.rslides img:not(.slide_hover-img) {
-  display: block;
-  height: 450px;
-  float: left;
-  width: 100%;
-  border: 0;
+/*redacted for ie not support :not*/
+
+.rslides img{
+	display: block;
+	height: 450px;
+	float: left;
+	width: 100%;
+	border: none;
   }
+.rslides .slide_hover-img{
+	position: absolute;
+	float: none;
+	right: 5%;
+	bottom: 15%;
+	width:150px;
+	height: 150px;
+}
 
 
 .slide_text{
@@ -258,13 +268,6 @@ body{
 	left:5%;
 	top: 10%;
 	text-align: left;
-}
-.slide_hover-img{
-	position: absolute;
-	right: 5%;
-	bottom: 15%;
-	width:150px;
-	height: 150px;
 }
 
 
