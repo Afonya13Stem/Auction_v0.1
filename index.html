@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Интернет-Аукцион</title>
+	
+	<link rel="stylesheet" href="libs/ResponsiveSlides/responsiveslides.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/media.css">
+  
+
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+</head>
+<body>
+
+<header class="header">
+	<div class="header_top-line clearfix">
+		<nav class="header_menu header_menu-left">
+			<ul class="menu">
+				<li> <a href="index.html" class="active-mnu">Аукцион</a> </li>
+				<span class="menu-space"></span>
+				<li> <a href="news.html">Новости</a> </li>
+				<span class="menu-space"></span>
+				<li> <a href="sell.html">Хочу продать</a></li>
+				<span class="menu-space"></span>
+				<li> <a href="contacts.html">Контакты</a> </li>
+			</ul>
+		</nav>
+
+		<a href="#" class="toggle-mnu"><span></span></a>
+
+		<div class="header_login">
+			<a href="login.html">Вход</a>
+			<span class="menu-space"></span>
+			<a href="registration.html">Регистрация</a>
+		</div>
+	</div>
+	
+
+	<nav class="hidden-mnu clearfix">
+		<ul>
+			<li class="active"><a href="index.html">Аукцион</a></li>
+			<li><a href="news.html">Новости</a></li>
+			<li><a href="sell.html">Хочу продать</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+		</ul>
+	</nav>
+
+
+	<div class="header_slider clearfix">
+		<ul class="rslides clearfix">
+			<li><img src="img/slider_img3.jpg" alt="img3"><h3 class="slide_text slide1">Абсолютно <span class="red">новый</span> подход к продаже крутых вещей. <br>Бренды,стильные вещи,классные акссесуары - все здесь. <br>Делайте ставки и получайте вещи по выхогдной цене да еще и с Азартом.</h3></li>
+			<li><img src="img/slider_img4.jpg" alt="img4"><h3 class="slide_text slide2">Хотите продать свою<span class="red">брендовую</span> или просто<span class="red"> крутую</span> вещицу? <br>Тогда вы там где нужно! <br>Предлагайте,но учтите что мы следим за крутостью ващих "Лотов".</h3></li>
+			<li><img src="img/slider_img2.jpg" alt="img2"><h3 class="slide_text slide3">Угадайте откуда у <span class="red">Чака Нориса</span> такой крутой пояс и ремни для УЗИ? <br>Все верно он воспользовался нашими услугами,и его ставку никто не осмелился перебить!</h3>
+			<img src="img/chuck.png" alt="Чак Одобряет" class="slide_hover-img">
+			</li>
+		</ul>
+		<a href="#" class="centered-btns_nav centered-btns1_nav prev">Previous</a>
+		<a href="#" class="centered-btns_nav centered-btns1_nav next">Next</a>
+	</div>
+	
+</header>
+
+<section class="content clearfix">
+
+	<div class="search">
+	
+		<form action="" method="post" class="search_form">
+			<input type="search" name="search-input" placeholder=" " class="search_form-input">
+			<input type="submit" name="submit" value="" class="search_submit">
+		<!-- 	<button type="button" class="search_submit">  -->
+		</form>
+
+	</div>
+	
+
+	<div class="content_main clearfix">
+		<div class="category">
+			<h2 class="category_text">Категории</h2>
+			<ul class="category_list">
+				<li class="category-item category_accsesories"><a href="#">Аксесуары</a></li>
+				<li class="category-item category_kids"><a href="#">Для детей</a></li>
+				<li  class="category-item category_newYear"><a href="#">Новый год</a></li>
+				<li  class="category-item category_bags"><a href="#">Сумки</a></li>
+			</ul>
+		</div>
+
+		<div class="content_box">
+
+
+			<div class="content_loaded" id="content_loaded">
+			<div class="main_items">
+				<div class="content_loaded_element toggle_accssesories">
+					
+						<div class="content_loaded-img">
+							
+								<img src="img/accsesories.jpg" alt="accsesories">
+								<div class="content_loaded-text">
+									<h3>Аксесуары</h3>
+								</div>
+					
+						</div>
+						
+				</div>
+	
+				<div class="content_loaded_element toggle_kids">
+					
+						<div class="content_loaded-img">
+							<img src="img/forkids.jpg" alt="для детей">
+							<div class="content_loaded-text">
+								<h3>Для детей</h3>
+							</div>
+						</div>
+					
+				</div>
+				<div class="content_loaded_element toggle_newYear">
+					
+						<div class="content_loaded-img">
+							<img src="img/newyear.jpg" alt="Новый год">
+							<div class="content_loaded-text">
+								<h3>Новый год</h3>
+							</div>
+						</div>
+					
+				</div>
+				<div class="content_loaded_element toggle_bags">
+					
+						<div class="content_loaded-img">
+							<img src="img/bags.jpg" alt="Сумки">
+							<div class="content_loaded-text">
+								<h3>Сумки</h3>
+							</div>
+						</div>
+					
+				</div>
+			</div>
+				<!-- content hiden -->
+				<div class="accesories">
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/accsesories/1.jpg" alt="Зарядка">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Аксессуар "Беспроводное зарядноеустройство"</h3>
+							<p class="desc-p">Представьте себе ситуацию, в которой Вам больше нет необходимости каждый раз ставить Ваш телефон на зарядку – достаточно просто положить его на аксессуар и он сам будет себя заряжать!
+							</p>
+							<a href="index-parts/1accseories.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">200</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">7.12.2016</span>
+							</p>
+						</div>
+
+					</div>
+
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/accsesories/2.jpg" alt="Зарядка">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Гребень для бороды деревянный в холдере "Якорь"</h3>
+							<p class="desc-p">Гребень для бороды - это стильный аксессуар и незаменимый помощник в уходе.<br>Сделан из высококачественных сортов древесины, он поможет гладко вычесать и усмирить даже самую необузданную бороду. <br>Холдер защитит гребень от мусора и нежелательных воздействий. 
+							</p>
+							<a href="index-parts/2accseories.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">200</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">8.12.2016</span>
+							</p>
+						</div>	
+					</div>
+
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/accsesories/3.jpg" alt="Зарядка">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Варежки Miracle горчичной шести</h3>
+							<p class="desc-p">Вязаные варежки из мериносовой шерсти терракотового цвета.Анатомический пальчик, идеальная посадка по руке.Теплые, мягкие и красивые. 
+							</p>
+							<a href="index-parts/3accseories.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">300</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">7.12.2016</span>
+							</p>
+						</div>
+					</div>
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/accsesories/4.jpg" alt="Зарядка">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Деревянный чехол для iPhone 5/5S/SE</h3>
+							<p class="desc-p">Деревянное покрытие сделанное вручную, в сочетании с поликарбонатной основой поможет защитить Ваш любимый телефон.Простота использования. Открытый доступ. Чехол не препятствует использованию камеры, кнопок и разъемов — имеются специальные вырезы для всех функциональных элементов.  
+							</p>
+							<a href="index-parts/4accseories.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">199</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">7.12.2016</span>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="kids">
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/kids/1kids.jpg" alt="конструктор">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Деревянный конструктор"</h3>
+							<p class="desc-p">универсальный деревянный конструктор.почему "универсальный"? да потому, что из этих деталей можно собрать,что угодно.единственное ограничение - это ваша фантазия.
+							</p>
+							<a href="index-parts/1kids.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">350</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">9.12.2016</span>
+							</p>
+						</div>
+
+					</div>
+				
+
+				<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/kids/2kids.jpg" alt="Кровать">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Спальний мішечок для прогулянок, 0-6 міс.</h3>
+							<p class="desc-p">З думкою про осінь ми створили такий чудовий спальний мішечок! Хто втомився від рожевого та блакитного, лиска хакі чекає! Всередині дитячий гіпоалергенний утеплювач, мішечок на осінь та євро зиму.
+							</p>
+							<a href="index-parts/2kids.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">320</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">10.12.2016</span>
+							</p>
+						</div>
+
+					</div>
+
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/kids/3kids.jpg" alt="комплект в кроватку">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Комплект в кроватку Little airplanes"</h3>
+							<p class="desc-p">Первым делом, первым делом самолеты))) в продаже замечательный комплект для малыша: бортики-трансформеры состоят из 12 подушечек размером 30х30 см.каждая и наматрасник на кроватку 120х60, подходящий даже на высокий матрасик (до 17 см.). Как всегда, только натуральные ткани -100% хлопок. Наполнитель бортиков -силиконизированый синтепон.
+							</p>
+							<a href="index-parts/3kids.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">235</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">8.12.2016</span>
+							</p>
+						</div>
+
+					</div>
+
+
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/kids/4kids.jpg" alt="Комплект на выписку">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Комплект на выписку "Мишутки"</h3>
+							<p class="desc-p">Вязаный плед ручной работы и пинетки. Плед связан с вискозы, идеально подойдет на теплое время года. Очень мягкий. Размер 75*80 см. Пинетки связаны из мягкого детского акрила и украшены мишутками-малютками с сосками. Сбоку есть завязочки, чтобы пинеточки лучше держались, украшеные баламбонами.
+							</p>
+							<a href="index-parts/4kids.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">160</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">9.12.2016</span>
+							</p>
+						</div>
+					</div>
+
+
+				</div>
+
+
+				<div class="newYear">
+
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/newYear/1newYear.jpg" alt="Чашка Рудольф">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Рождественская чашка с оленем Рудольфом</h3>
+							<p class="desc-p">Однажды из-за сильного тумана развоз подарков Санта-Клаусом затянулся, когда он добрался до дома оленя Рудольфа, он заметил его светящийся нос в тёмной комнате и решил, что этот нос станет подходящим фонариком, освещающим дорогу его саням, и попросил Рудольфа стать передовым оленем в упряжке, на что тот охотно согласился.Объём 600 мл.
+							</p>
+							<a href="index-parts/1newyear.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">100</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">9.12.2016</span>
+							</p>
+						</div>
+
+					</div>
+					
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/newYear/2newYear.jpg" alt="елка">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Новогодняя елка из суккулентов</h3>
+							<p class="desc-p">Представьте себе, что после рождественских праздников Ваша красивая и радостная елка не осыпется, а будет продолжать расти и радовать глаз. Или же ее можно будет разобрать на кучу небольших композиций из живых суккулентов. В отличии от обычной ёлочки, которую разбирают - игрушки прячут на антресоль до следующего года, а саму красавицу отправляют на мусор. 
+							</p>
+							<a href="index-parts/2newyear.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">500</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">29.12.2016</span>
+							</p>
+						</div>
+
+					</div>
+
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/newYear/3newYear.jpg" alt="Рождественский венок">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Рождественский венок</h3>
+							<p class="desc-p">Украшение дома к Новогодним праздникам — приятная и радостная традиция. В эти дни взрослые становятся детьми, дом наполняется приятным мандариновым ароматом, а в воздухе витает ощущения веселья и праздника. Поэтому создавая праздничную атмосферу, не забудьте об главном!Ведь сказка всегда начинается… с двери!</p>
+							<a href="index-parts/3newyear.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">200</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">29.12.2016</span>
+							</p>
+						</div>
+
+					</div>
+
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/newYear/4newYear.jpg" alt="Новогодний Лосик Жора">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Новогодний Лосик Жора</h3>
+							<p class="desc-p">Лосик Жора. Выполнен из пряжи , хлопок. В технике амигуруми. В полный рост 41 см. Оригинальный подарок и интересный декор , украсит Ваш дом и создаст праздничное настроение!
+							</p>
+							<a href="index-parts/4newyear.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">100</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">29.12.2016</span>
+							</p>
+						</div>
+
+					</div>
+			
+
+
+				</div>
+
+				<div class="bags">
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/bags/1bags.jpg" alt="Кожаная сумка мессенджер">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Кожаная сумка мессенджер. </h3>
+							<p class="desc-p">Сумка мессенджер из натуральной кожи. Изделие полностью ручной работы. Мы используем качественную фурнитуру и крепкие нити для изготовления наших товаров. Сумка подойдет для повседневной деловой жизни или учебы. Изделие долговечно, за счет качественных материалов и ручной работы. Плечевой ремень регулируется, так что подойдет каждому. Сверху есть удобные ручки. Основное отделение закрывается на молнию, есть также широкий передний карман под молнией. 
+							</p>
+							<a href="index-parts/1bags.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">500</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">9.12.2016</span>
+							</p>
+						</div>
+
+					</div>
+
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/bags/2bags.jpg" alt="Компактный кожаный рюкзак. ">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Компактный кожаный рюкзак. </h3>
+							<p class="desc-p">Стильный женский компактный рюкзачок сделан из качественной натуральной кожи. Очень удобен в эксплуатации, и приятен для взоров окружающих. Большое отделение на молнии, внутренний карман и ремни, которые регулируются по длине.
+							</p>
+							<a href="index-parts/2bags.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">500</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">9.12.2016</span>
+							</p>
+						</div>
+
+					</div>
+
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/accsesories/1.jpg" alt="Сумка ручной работы с деревянными вставками по бокам">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Сумка ручной работы с деревянными вставками по бокам</h3>
+							<p class="desc-p">Кожаная сумка ручной работы изготовленная полностью из натуральной кожи, с деревянными вставками по бокам (дерево покрыто лаком). 
+							</p>
+							<a href="index-parts/3bags.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">700</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">9.12.2016</span>
+							</p>
+						</div>
+
+					</div>
+
+					<div class="selling_item">
+						<div class="selling_img">
+							<img src="img/bags/4bags.jpg" alt="Сумка-почтальонка женская">
+						</div>
+						<div class="selling_desc">
+
+							<h3 class="desc-h">Сумка-почтальонка женская</h3>
+							<p class="desc-p">Стильная сумка-почтальонка пригодится на каждый день! Роспись на клапане из натуральной кожи выполнена вручную! 
+							</p>
+							<a href="index-parts/4bags.html" class="item_buy">
+							Подробнее</a>
+
+						</div>
+						<div class="selling_price">
+							<h3 class="price-h">
+								Стартовая цена <span class="price">500</span> грн.
+							</h3>
+							<p class="price-date">
+								Дата окончания аукциона: 
+								<span class="red">11.12.2016</span>
+							</p>
+						</div>
+
+					</div>
+
+
+
+					
+				</div>
+
+			</div> 
+		</div>
+
+	</div>
+
+	<div class="footer_wrap">
+		<div class="footer_element">
+			<div class="footer-left">
+				<a href="index.html"><img src="img/afon.png" alt="logo" class="logo"></a>
+			</div>
+			<div class="footer-right">
+				<div class="social"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></div>
+				<div class="social"><a href="#" onclick="Share.twitter('URL','TITLE','IMG_PATH','DESC')"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+				<div class="social"><a href="#"><i class="fa fa-share-square" aria-hidden="true"></i></a></div>
+				<div class="social"><a href="#" onclick="Share.facebook('URL','TITLE','IMG_PATH','DESC')"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+			</div>
+		</div>
+	</div>	
+</section>
+
+
+
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/ResponsiveSlides/responsiveslides.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

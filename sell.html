@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Интернет-Аукцион</title>
+	
+	<link rel="stylesheet" href="libs/ResponsiveSlides/responsiveslides.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sell.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/media.css">
+   	
+
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+</head>
+<body>
+
+<header class="header">
+	<div class="header_top-line clearfix">
+		<nav class="header_menu header_menu-left">
+			<ul class="menu">
+				<li> <a href="index.html">Аукцион</a> </li>
+				<span class="menu-space"></span>
+				<li> <a href="news.html">Новости</a> </li>
+				<span class="menu-space"></span>
+				<li> <a href="sell.html" class="active-mnu">Хочу продать</a></li>
+				<span class="menu-space"></span>
+				<li> <a href="contacts.html">Контакты</a> </li>
+			</ul>
+		</nav>
+
+		<a href="#" class="toggle-mnu"><span></span></a>
+	
+		<div class="header_login">
+			<a href="login.html">Вход</a>
+			<span class="menu-space"></span>
+			<a href="registration.html">Регистрация</a>
+		</div>
+	</div>
+
+
+
+	<nav class="hidden-mnu clearfix">
+		<ul>
+			<li><a href="index.html">Аукцион</a></li>
+			<li><a href="news.html">Новости</a></li>
+			<li  class="active"><a href="sell.html">Хочу продать</a></li>
+			<li><a href="contacts.html">Контакты</a></li>
+		</ul>
+	</nav>
+
+</header>
+
+<section class="sell ">
+	<div class="sell-h ">
+		<h2>Хотите выставить на аукцион свою крутую вещь?<br> Тогда вы там где нужно!</h2>
+	</div>
+
+	<div class="sell_form">
+		<form action="" method="post" class="sell_form-item">
+			<h3>Введите пожалуйста требуемые для выставление лота данные</h3>
+			<br>
+			<h4>Введите название вашего товара</h4>
+			<br>
+			<input type="text" required class="input-h"><span></span>
+			<br>
+			<h4>Введите цену с которой вы хотите начать торги.цена в грн(число).</h4>
+			<input type="text" required class="input-price" pattern="^[ 0-9]+$"><span></span>
+			<br>
+			<h4>Введите описание вашего товара</h4>
+			<br>
+			<textarea name="desc-area" id="text-area" cols="2" rows="4" required></textarea><span></span>
+			<br>
+			<h4>Добавьте фото вашего товара(Это обязательно,у нас все очень серьезно и круто)</h4>
+			<input type="file" class="input-img" required accept="image/*,image/jpeg"><span></span>
+			<br>
+			<input type="submit" class="subm">
+		</form>
+
+		<div class="text-confirm hide">Обратите внимание!!В целях безопасности в течении 24 часов(конечно быстрее) мы рассмотрим вашу заявку на аукцион и добавим.Спасибо за доверие.</div>
+	</div>
+
+</section>
+
+
+<div class="footer_wrap">
+		<div class="footer_element">
+			<div class="footer-left">
+				<a href="index.html"><img src="img/afon.png" alt="logo" class="logo"></a>
+			</div>
+			<div class="footer-right">
+				<div class="social"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></div>
+				<div class="social"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+				<div class="social"><a href="#"><i class="fa fa-share-square" aria-hidden="true"></i></a></div>
+				<div class="social"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+			</div>
+		</div>
+	</div>	
+
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/ResponsiveSlides/responsiveslides.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>	
